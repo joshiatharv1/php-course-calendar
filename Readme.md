@@ -1,33 +1,41 @@
-Course Calendar
+# Course Calendar
+
 A simple and modern course scheduling calendar built with PHP, MySQL, and vanilla JavaScript.
-Features
 
-📅 Interactive calendar interface
-➕ Add, edit, and delete course appointments
-🕐 Time management with start/end times
-📱 Mobile responsive design
-🔄 Multi-day event support
-🎨 Modern UI with smooth animations
+## Features
 
-Quick Start
+- 📅 Interactive calendar interface
+- ➕ Add, edit, and delete course appointments
+- 🕐 Time management with start/end times
+- 📱 Mobile responsive design
+- 🔄 Multi-day event support
+- 🎨 Modern UI with smooth animations
 
-Clone the repository
-bashgit clone https://github.com/yourusername/course-calendar.git
-cd course-calendar
+## Quick Start
 
-Run with Docker
-bashdocker-compose up
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/joshiatharv1/php-course-calendar
+   cd course-calendar
+   ```
 
-Access the application
-Open http://localhost:8000 in your browser
+2. **Run with Docker**
+   ```bash
+   docker-compose up
+   ```
 
-Tech Stack
+3. **Access the application**
+   Open http://localhost:8000 in your browser
 
-Backend: PHP 8.1, MySQL 8.0
-Frontend: HTML5, CSS3, Vanilla JavaScript
-Deployment: Docker & Docker Compose
+## Tech Stack
 
-Project Structure
+- **Backend**: PHP 8.1, MySQL 8.0
+- **Frontend**: HTML5, CSS3, Vanilla JavaScript
+- **Deployment**: Docker & Docker Compose
+
+## Project Structure
+
+```
 course-calendar/
 ├── index.php          # Main application page
 ├── calendar.php       # Backend logic & database
@@ -35,12 +43,15 @@ course-calendar/
 ├── style.css          # Styling and UI
 ├── docker-compose.yml # Docker configuration
 └── README.md
-Usage
+```
 
-Add Events: Click on any calendar day to add a new course appointment
-Edit Events: Click on existing events to modify them
-Delete Events: Use the delete button in the event modal
-Navigation: Use arrow buttons to navigate between months
+## Usage
 
-License
+1. **Add Events**: Click on any calendar day to add a new course appointment
+2. **Edit Events**: Click on existing events to modify them
+3. **Delete Events**: Use the delete button in the event modal
+4. **Navigation**: Use arrow buttons to navigate between months
+
+## License
+
 MIT License - feel free to use this project for learning or personal use.
